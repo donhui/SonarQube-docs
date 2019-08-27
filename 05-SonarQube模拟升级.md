@@ -155,7 +155,7 @@ sonar.jdbc.url=jdbc:postgresql://127.0.0.1/sonarqube
 ```
 #解压
 wget https://binaries.sonarsource.com/Distribution/mysql-migrator/mysql-migrator-1.1.0.119.zip
-unzip mysql-migrator-1.1.0.119.zip && cd bin
+unzip mysql-migrator-1.1.0.119.zip && cd mysql-migrator-1.1.0.119/bin
 
 #source.properties
 sonar.jdbc.username=xxxx
@@ -349,13 +349,17 @@ cd sonarqube-7.9.1/bin/linux-x86-64/
 初始化服务
 http://119.3.228.122:9000/setup
 
-![images](./images/05/06.png)
+![images](./images/05/06.png)
 
-![images](./images/05/07.png)
-![images](./images/05/08.png)
- 哈哈哈哈哈 升级完成了，数据未丢失
-![images](./images/05/09.png)
-![images](./images/05/10.png)
+![images](./images/05/07.png)
+
+![images](./images/05/08.png)
+
+哈哈哈哈哈 升级完成了，数据未丢失
+
+![images](./images/05/09.png)
+
+![images](./images/05/10.png)
 
 
 ### 总结
